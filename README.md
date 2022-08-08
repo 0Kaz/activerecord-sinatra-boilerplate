@@ -155,9 +155,9 @@ and a view called ```show.erb``` with this code :
 <a href="/">back</a>
 ```
 
-## Adding URL Routing to our Restaurant app :
+<h2> Adding URL Routing to our Restaurant app :</h2>
 
-If we want to make our lists of Restaurants linked to more detailed informations , we can add URL routes for the path in ```show.erb````
+We can add URL routes for the path in ```show.erb``` if we wish to link our lists of restaurants with their specific page.
 
 ```
 <h1>My Restaurant App</h1>
