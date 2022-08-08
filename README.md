@@ -14,7 +14,15 @@ Sinatra is a DSL (Doman Specific Language), the principle of this small web fram
 <img src="https://res.cloudinary.com/kzkjr/image/upload/v1659995695/Screen_Shot_2022-08-08_at_22.47.37.png"/>
 
 
-First thing you need to do when you download this boilerplate is to run ```bundle install``` to set all the dependencies needed for this exercise.
+First thing you need to do when you download this boilerplate below :
+
+```
+git clone git@github.com:lewagon/activerecord-sinatra-boilerplate.git
+cd activerecord-sinatra-boilerplate
+code .
+```
+
+And to run ```bundle install``` to set all the dependencies needed for this exercise.
 
 
 
