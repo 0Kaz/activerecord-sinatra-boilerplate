@@ -99,7 +99,7 @@ end
 
 1 - Launch the app by using the main file <code> ruby app.rb</code>
 
-2 - Access the page by going to your navigator with the link : localhost:4567
+2 - Access the page by going to your browser with the link : localhost:4567
 
 3 - Do a quick reading and understanding of the ```app.rb```file  (get "/" do ... end)
 
