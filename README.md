@@ -40,6 +40,13 @@ rake db:migrate
 
 Generate then a new migration to create the ```restaurants``` table with the ```name``` and ```address``` columns:
 
+In your terminal :
+
+```
+TIMESTAMP =`rake db:timestamp`
+touch db/migrate/${TIMESTAMP}_create_restaurants.rb
+```
+
 <code>
 class CreateRestaurants < ActiveRecord::Migration[7.0]
   def change
