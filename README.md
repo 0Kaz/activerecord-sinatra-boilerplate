@@ -137,12 +137,13 @@ Now let's add the view for index in ```views/index.erb```:
 
 We want to be able to go to the page of a specific restaurant.
 
-Restaurants have ids. So we want to go to a URL like: restaurants/3
+Restaurants have ids. So we want to go to a URL like: restaurant/3
 
 At this step, you can give IRL examples:
 
-airbnb.com/rooms/432044
-github.com/ssaunier
+- airbnb.com/rooms/432044
+- github.com/ssaunier
+
 We need to add a new route on ```app.rb```:
 
 ```
