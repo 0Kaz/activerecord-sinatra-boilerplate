@@ -11,7 +11,7 @@ get "/" do
 end
 
 
-get '/restaurants/:id' do
+get '/restaurant/:id' do
   restaurant_id = params[:id]
   @restaurant = Restaurant.find(restaurant_id)
   erb :show

@@ -138,7 +138,7 @@ github.com/ssaunier
 We need to add a new route on ```app.rb```:
 
 ```
-get '/restaurants/:id' do
+get '/restaurant/:id' do
   restaurant_id = params[:id]
   @restaurant = Restaurant.find(restaurant_id)
   erb :show
@@ -153,4 +153,20 @@ and a view called ```show.erb``` with this code :
 <p><%= @restaurant.address %></p>
 
 <a href="/">back</a>
+```
+
+## Adding URL Routing to our Restaurant app :
+
+If we want to make our lists of Restaurants linked to more detailed informations , we can add URL routes for the path in ```show.erb````
+
+```
+<h1>My Restaurant App</h1>
+<p>The list of my favorite restaurants</p>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li><a href="/restaurant/<%= restaurant.id=%>"><%= restaurant.name %></a></li>
+  <% end %>
+</ul>
+
 ```
