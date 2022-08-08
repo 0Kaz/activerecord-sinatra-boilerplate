@@ -41,7 +41,7 @@ The main user story for this small web app is as such :
 First step is to create your database :
 
 ```
-rake db:migrate
+rake db:create
 ```
 
 
