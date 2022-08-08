@@ -1,0 +1,8 @@
+<h1>My Restaurant App</h1>
+<p>The list of my favorite restaurants</p>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li><%= restaurant.name %></li>
+  <% end %>
+</ul>
